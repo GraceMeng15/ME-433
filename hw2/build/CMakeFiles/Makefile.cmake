@@ -134,12 +134,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/grace/Desktop/Pico/pico-sdk/tools/FindELF2UF2.cmake"
   "/Users/grace/Desktop/Pico/pico-sdk/tools/FindPioasm.cmake"
   "/Users/grace/Documents/GitHub/ME-433/hw2/CMakeLists.txt"
-  "/Users/grace/Documents/GitHub/ME-433/hw2/blink/CMakeLists.txt"
+  "/Users/grace/Documents/GitHub/ME-433/hw2/adc/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
-  "blink/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+  "adc/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
   "/Users/grace/Documents/GitHub/ME-433/hw2/pico_sdk_import.cmake"
   )
@@ -239,10 +239,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "blink/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
-  "blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt"
-  "blink/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
-  "blink/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "adc/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+  "adc/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt"
+  "adc/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
+  "adc/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -252,6 +252,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
-  "blink/CMakeFiles/blink.dir/DependInfo.cmake"
-  "blink/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
+  "adc/CMakeFiles/adc.dir/DependInfo.cmake"
+  "adc/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   )

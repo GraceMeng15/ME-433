@@ -165,7 +165,7 @@
 /Users/grace/Documents/GitHub/ME-433/hw2/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /Users/grace/Documents/GitHub/ME-433/hw2/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /Users/grace/Documents/GitHub/ME-433/hw2/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-/Users/grace/Documents/GitHub/ME-433/hw2/build/blink/CMakeFiles/blink.dir
-/Users/grace/Documents/GitHub/ME-433/hw2/build/blink/CMakeFiles/ELF2UF2Build.dir
-/Users/grace/Documents/GitHub/ME-433/hw2/build/blink/CMakeFiles/edit_cache.dir
-/Users/grace/Documents/GitHub/ME-433/hw2/build/blink/CMakeFiles/rebuild_cache.dir
+/Users/grace/Documents/GitHub/ME-433/hw2/build/adc/CMakeFiles/adc.dir
+/Users/grace/Documents/GitHub/ME-433/hw2/build/adc/CMakeFiles/ELF2UF2Build.dir
+/Users/grace/Documents/GitHub/ME-433/hw2/build/adc/CMakeFiles/edit_cache.dir
+/Users/grace/Documents/GitHub/ME-433/hw2/build/adc/CMakeFiles/rebuild_cache.dir
