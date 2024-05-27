@@ -72,12 +72,3 @@ int main(){
         ssd1306_update();
     }
 }
-
-
-            // adc_init(); // init the adc module
-            // adc_gpio_init(26); // set ADC0 pin to be adc input instead of GPIO
-            // adc_select_input(0); // select to read from ADC0
-            // uint16_t adc = adc_read();
-
-            // printf("%dth ADC value: %d volts\n", i, adc);
-            // sleep_ms(10);
