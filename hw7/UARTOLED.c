@@ -25,9 +25,6 @@ static int chars_rxed = 0;
 int i = 0;
 char m[100];
 
-// void clearMessage(){
-// ;
-// }
 
 void drawMessage(int x, int y, char* m);
 
@@ -35,8 +32,11 @@ void on_uart_rx() {
     while (uart_is_readable(UART_ID)) {
         uint8_t ch = uart_getc(UART_ID);
         
+        // read everything into buffer unless /r /n
         if (ch == '\r' | ch == '\n'){
-            drawMessage(0, 0, m);
+            drawMessage(10, 20, m);
+            ssd1306_update();
+            memset(m, '\0', 100);
             i = 0;
         }
         else{
@@ -44,19 +44,12 @@ void on_uart_rx() {
             i++;
         }
 
-        // read everything into buffer unless /r /n
-        // clean
-
         if (uart_is_writable(UART_ID)) {
-            // Change it slightly first!
-            ch++;
             uart_putc(UART_ID, ch);
         }
         chars_rxed++;
     }
 }
-
-
 
 
 void drawChar(int x, int y, char letter){
@@ -95,10 +88,6 @@ int main(){
 
     ssd1306_setup();
 
-    // Initialize GPIO
-    gpio_init(25);
-    gpio_set_dir(25, GPIO_OUT);
-
     sleep_ms(250); // sleep so that data polling and register update don't collide
 
     // Initialize UART
@@ -122,7 +111,10 @@ int main(){
 
     uart_set_irq_enables(UART_ID, true, false);
 
-    //uart_puts(UART_ID, "\nHello, uart interrupts\n");
+    // char message[50];
+    // sprintf(message,"Start!");
+    // drawMessage(5, 5, message);
+    // ssd1306_update();
 
     while (1) {
         tight_loop_contents();
