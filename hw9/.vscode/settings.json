@@ -1,0 +1,13 @@
+{
+    "cmake.environment": {
+    "PICO_SDK_PATH":"/Users/grace/Desktop/Pico/pico-sdk"
+    },
+    "files.associations": {
+      "stdlib.h": "c",
+      "time.h": "c",
+      "stdio.h": "c",
+      "math.h": "c",
+      "ssd1306.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+  }
